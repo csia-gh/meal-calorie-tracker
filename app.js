@@ -209,7 +209,7 @@ const UICtrl = (function() {
       const li = document.createElement("li");
       // add class
       li.className =
-        "list-group-item my-1 d-flex justify-content-between align-items-center";
+        "list-group-item d-flex justify-content-between align-items-center";
       // add id
       li.id = `item-${item.id}`;
       // add html
