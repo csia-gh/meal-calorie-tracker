@@ -188,7 +188,7 @@ const UICtrl = (function() {
       let html = "";
 
       items.forEach(function(item) {
-        html += `<li class="list-group-item my-1 d-flex justify-content-between align-items-center" id="item-${item.id}">
+        html += `<li class="list-group-item d-flex justify-content-between align-items-center" id="item-${item.id}">
         <span><strong>${item.name}: </strong> <em>${item.calories} Calories</em></span>
         <span class="badge badge-pill badge-light p-2"><a class="text-success" href="#"
           ><i class="edit-item fas fa-pencil-alt"></i></a></span>
